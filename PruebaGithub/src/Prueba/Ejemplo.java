@@ -12,9 +12,12 @@ public class Ejemplo {
 		
 		char letra = 'a';
 		float decimal = 1e10f;
-		double precio = 3500,95;
+		double precio = 3500.95;
 		
 		boolean ganasDeIrma = true;
+		
+		//Constante
+		final double PI=3.14;
 		
 		System.out.println(num1);
 		System.out.println(mes);
@@ -23,6 +26,7 @@ public class Ejemplo {
 		System.out.println(decimal);
 		System.out.println(precio);
 		System.out.println(ganasDeIrma);
+		System.out.println(PI);
 
 	}
 
