@@ -18,8 +18,6 @@ public class Ejercicio15 {
 		 misInteresesTotal = misIntereses - interesesRetenidos;
 		 System.out.println(misInteresesTotal);
 		 
-		 
-		 
 	}
 
 }
