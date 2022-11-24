@@ -11,9 +11,7 @@ public class Ejercicio4 {
 	/*c.*/ res = "Hola" == "Hola ";  //false
 	/*d.*/ res = ((2<=5) && (3>=6) || (2>-1)); //true
 	/*e.*/ res = ((2<=5) || (3>=6) && (2>-1)); //true
-		
-		
-		
+	
 	}
 
 }

@@ -9,8 +9,9 @@ public class Ejercico9 {
 		System.out.println("El cuadrado de "+ numero +" es: "+ cuad);
 		
 		/*Los probrlamas son que "cuad" no estava definido, 
-		otra es que en el syso "+numero+" estaba junto en vez de separado
-		y la otra es que el int no estaba el ;*/
+		otra es que en el syso "+numero+" estaba junto en vez de separado,
+		la otra es que el int no estaba el ";" y 
+		en el la multiplicacion el segindo valor numero tiene la tilde */
 	}
 
 }

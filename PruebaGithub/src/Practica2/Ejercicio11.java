@@ -10,9 +10,6 @@ public class Ejercicio11 {
 		System.out.println(area);
 		perimetro=2 * Math.PI * radio;
 		System.out.println(perimetro);
-		
-		
-
 	}
 
 }
