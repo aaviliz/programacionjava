@@ -7,21 +7,21 @@ public class Ejercicio18 {
 	
 		int a=10, b=3, d, e;
 		
-		boolean c = false;
+		boolean c = true;
 		
 		float x, y;
 		
-		x= a / b;
+		x= (float) a / b;
 		c = a < b && c;
 		d = a + b++;
 		e = ++a - b;
-		y = (float)a / b;
+		
 		
 		System.out.println(x);
 		System.out.println(c);
-		System.out.println(d);
-		System.out.println(e);
-		System.out.println(y);
+		System.out.println(d +" " + b );
+		System.out.println(e + " " + a + " " + b);
+		
 
 		// lo q he hecho para q funcione es poner la variable c en boolean.
 	}
