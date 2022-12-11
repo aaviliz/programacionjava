@@ -17,7 +17,7 @@ public class Ej1 {
 		num[8]=9;
 		num[9]=10
 				;
-		for (int i=0; i<9; i++) {
+		for (int i=0; i<10; i++) {
 			System.out.println(num[i]);
 		}
 		for (int i=9;i>=0;i--) {
