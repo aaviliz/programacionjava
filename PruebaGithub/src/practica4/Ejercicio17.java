@@ -1,5 +1,7 @@
 package Practica4;
 
+import java.util.Arrays;
+
 public class Ej17 {
 	
 	public static int[][] traspuesta(int[][] matrizOriginal){
