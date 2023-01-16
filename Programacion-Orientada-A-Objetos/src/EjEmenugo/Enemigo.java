@@ -15,6 +15,8 @@ public class Enemigo {
 	private int nivel;
 	private int damage;
 	
+	public static int NumEnemi;
+	
 	public Enemigo() {
 		
 		super();
@@ -24,6 +26,7 @@ public class Enemigo {
 		this.salud = 100;
 		this.nivel = 1;
 		this.damage = 0;
+		this.NumEnemi++;
 				
 	}
 
@@ -85,6 +88,8 @@ public class Enemigo {
 	public void recibirDamage(int damage) {
 		
 		this.salud = this.salud - this.damage;
+		Enemigo.NumEnemi--;
+		
 		
 		if(salud<=0) {
 			System.out.println("Muerto");

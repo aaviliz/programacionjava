@@ -21,6 +21,17 @@ public class Aplicaion {
 			enemi2.subirNivel();
 		}
 		
+		System.out.println("Numero enemigos "+Enemigo.NumEnemi);
 		
+		System.out.println(enemi1);
+		System.out.println(enemi2);
+		
+		enemi1.recibirDamage(400);
+		enemi2.recibirDamage(110);
+		
+		System.out.println(enemi1);
+		System.out.println(enemi2);
+		
+		System.out.println("Numero enemigo "+Enemigo.NumEnemi);
 	}
 }
